@@ -1,19 +1,74 @@
-# Maven
+# ------------------------------------------------------------------
+# Java / Maven build output
+# ------------------------------------------------------------------
 target/
-
-# IDE
-.vscode/
-.idea/
-*.iml
-
-# Compiled
-*.class
+build/
 out/
 bin/
+*.class
 
-# Runtime data
+# ------------------------------------------------------------------
+# IDE and editor files
+# ------------------------------------------------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode/
+
+# ------------------------------------------------------------------
+# Maven wrapper (uncomment if you do NOT want to commit the wrapper)
+# ------------------------------------------------------------------
+# .mvn/wrapper/maven-wrapper.jar
+# !.mvn/wrapper/maven-wrapper.properties
+# mvnw
+# mvnw.cmd
+
+# ------------------------------------------------------------------
+# Runtime data written by the application
+# ------------------------------------------------------------------
 data/
+*.log
 
-# OS
+# ------------------------------------------------------------------
+# Operating system junk
+# ------------------------------------------------------------------
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ------------------------------------------------------------------
+# Environment and secrets
+# ------------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
