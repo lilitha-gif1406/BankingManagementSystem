@@ -1,0 +1,19 @@
+# Maven
+target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Compiled
+*.class
+out/
+bin/
+
+# Runtime data
+data/
+
+# OS
+.DS_Store
+Thumbs.db
